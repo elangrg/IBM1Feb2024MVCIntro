@@ -134,6 +134,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\AttributeBasedConfigController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\EmpCodeController.cs" />
     <Compile Include="Controllers\EmployeeGenController.cs" />
@@ -186,6 +187,9 @@
     <Content Include="Views\EmployeeGen\Index.cshtml" />
     <Content Include="Views\Product\Insert.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\AttributeBasedConfig\Index.cshtml" />
+    <Content Include="Views\AttributeBasedConfig\About.cshtml" />
+    <Content Include="Views\AttributeBasedConfig\Contact.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
